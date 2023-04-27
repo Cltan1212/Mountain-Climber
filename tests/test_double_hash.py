@@ -114,6 +114,7 @@ class TestDoubleHash(unittest.TestCase):
         value = next(value_iterator)
         self.assertIn(value, [1, 2])
 
+        # print(dt)
         del dt["May", "Jim"]
         del dt["Kim", "Tim"]
 
